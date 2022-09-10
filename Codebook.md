@@ -11,7 +11,7 @@ The first row contains the names of the variables, which are listed and describe
 
 ## Variables <a name="variables"></a>
 
-* `subject`: the ID of the volunteer ranging from 1 - 30
+* `subject`: the ID of the volunteers ranging from 1 - 30
 * `activity_lab`: specific activities that were performing(`WALKING`, `WALKING_UPSTAIRS`, `WALKING_DOWNSTAIRS`, `SITTING`, `STANDING`, `LAYING`)
 * Average of measurements : 
 
@@ -75,42 +75,42 @@ All measurements are floating-point values, normalised and bounded within [-1,1]
 * `TimeBodyGyroscopeJerkMagnitude-Mean` 
 * `TimeBodyGyroscopeJerkMagnitude-StandardDeviation` 
 
-####Frequency-domain signals
+#### Frequency-domain signals
 
-- Average frequency-domain body acceleration in the X, Y and Z directions
+Average frequency-domain body acceleration in the X, Y and Z directions
 * `FrequencyBodyAccelerometer-Mean-X` 
 * `FrequencyBodyAccelerometer-Mean-Y` 
 * `FrequencyBodyAccelerometer-Mean-Z`
-- Standard deviation of the frequency-domain body acceleration in the X, Y and Z directions
+Standard deviation of the frequency-domain body acceleration in the X, Y and Z directions
 * `FrequencyBodyAccelerometer-StandardDeviation-X` 
 * `FrequencyBodyAccelerometer-StandardDeviation-Y` 
 * `FrequencyBodyAccelerometer-StandardDeviation-Z` 
-- Average frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions
+Average frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions
 * `FrequencyBodyAccelerometerJerk-Mean-X` 
 * `FrequencyBodyAccelerometerJerk-Mean-Y` 
 * `FrequencyBodyAccelerometerJerk-Mean-Z` 
-- Standard deviation of the frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z direction
+Standard deviation of the frequency-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z direction
 * `FrequencyBodyAccelerometerJerk-StandardDeviation-X` 
 * `FrequencyBodyAccelerometerJerk-StandardDeviation-Y` 
 * `FrequencyBodyAccelerometerJerk-StandardDeviation-Z` 
-- Average frequency-domain body angular velocity in the X, Y and Z directions
+Average frequency-domain body angular velocity in the X, Y and Z directions
 * `FrequencyBodyGyroscope-Mean-X` 
 * `FrequencyBodyGyroscope-Mean-Y` 
 * `FrequencyBodyGyroscope-Mean-Z` 
-- Standard deviation of the frequency-domain body angular velocity in the X, Y and Z directions
+Standard deviation of the frequency-domain body angular velocity in the X, Y and Z directions
 * `FrequencyBodyGyroscope-StandardDeviation-X` 
 * `FrequencyBodyGyroscope-StandardDeviation-Y` 
 * `FrequencyBodyGyroscope-StandardDeviation-Z`
-- Average and standard deviation of the frequency-domain magnitude of body acceleration
+Average and standard deviation of the frequency-domain magnitude of body acceleration
 * `FrequencyBodyAccelerometerMagnitude-Mean` 
 * `FrequencyBodyAccelerometerMagnitude-StandardDeviation` 
-- Average and standard deviation of the frequency-domain magnitude of body acceleration jerk (derivation of the acceleration in time)
+Average and standard deviation of the frequency-domain magnitude of body acceleration jerk (derivation of the acceleration in time)
 * `FrequencyBodyBodyAccelerometerJerkMagnitude-Mean` 
 * `FrequencyBodyBodyAccelerometerJerkMagnitude-StandardDeviation` 
-- Average and standard deviation of the frequency-domain magnitude of body angular velocity
+Average and standard deviation of the frequency-domain magnitude of body angular velocity
 * `FrequencyBodyBodyGyroscopeMagnitude-Mean` 
 * `FrequencyBodyBodyGyroscopeMagnitude-StandardDeviation` 
-- Average and standard deviation  of the frequency-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time):
+Average and standard deviation  of the frequency-domain magnitude of body angular velocity jerk (derivation of the angular velocity in time):
 * `FrequencyBodyBodyGyroscopeJerkMagnitude-Mean` 
 * `FrequencyBodyBodyGyroscopeJerkMagnitude-StandardDeviation`
 
@@ -124,7 +124,7 @@ All measurements are floating-point values, normalised and bounded within [-1,1]
 
 4. The activity identifiers (integers between 1 and 6) were replaced with descriptive activity labels.
 
-5. All the measurement variable names were replaced with descriptive variable names ; for example `tBodyAcc-mean()-X` was transform in `TimeBodyAccelerometer-Mean-X`)
+5. All the measurement variable names were replaced with descriptive variable names ; for example `tBodyAcc-mean()-X` was transform in `TimeBodyAccelerometer-Mean-X`
 
 6. Tidy dataset with the average of each variable for each activity and each subject was created
 
