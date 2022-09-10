@@ -20,23 +20,25 @@ All measurements are floating-point values, normalised and bounded within [-1,1]
 #### Time-domain signals
 
 - Average time-domain body acceleration in the X, Y and Z directions
-`TimeBodyAccelerometer-Mean-X` 
-`TimeBodyAccelerometer-Mean-Y` 
-`TimeBodyAccelerometer-Mean-Z` 
+  - `TimeBodyAccelerometer-Mean-X` 
+  - `TimeBodyAccelerometer-Mean-Y` 
+  - `TimeBodyAccelerometer-Mean-Z` 
 
 - Standard deviation of the time-domain body acceleration in the X, Y and Z directions
-`TimeBodyAccelerometer-StandardDeviation-X` 
-`TimeBodyAccelerometer-StandardDeviation-Y` 
-`TimeBodyAccelerometer-StandardDeviation-Z` 
+  - `TimeBodyAccelerometer-StandardDeviation-X` 
+  - `TimeBodyAccelerometer-StandardDeviation-Y` 
+  - `TimeBodyAccelerometer-StandardDeviation-Z` 
 
 - Average time-domain gravity acceleration in the X, Y and Z directions
-* `TimeGravityAccelerometer-Mean-X` 
-* `TimeGravityAccelerometer-Mean-Y` 
-* `TimeGravityAccelerometer-Mean-Z` 
+  - `TimeGravityAccelerometer-Mean-X` 
+  - `TimeGravityAccelerometer-Mean-Y` 
+  - `TimeGravityAccelerometer-Mean-Z` 
+
 - Standard deviation of the time-domain gravity acceleration in the X, Y and Z directions
-* `TimeGravityAccelerometer-StandardDeviation-X` 
-* `TimeGravityAccelerometer-StandardDeviation-Y` 
-* `TimeGravityAccelerometer-StandardDeviation-Z` 
+  - `TimeGravityAccelerometer-StandardDeviation-X` 
+  - `TimeGravityAccelerometer-StandardDeviation-Y` 
+  - `TimeGravityAccelerometer-StandardDeviation-Z` 
+
 - Average time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions
 * `TimeBodyAccelerometerJerk-Mean-X` 
 * `TimeBodyAccelerometerJerk-Mean-Y` 
