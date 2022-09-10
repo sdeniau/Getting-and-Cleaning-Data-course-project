@@ -20,13 +20,15 @@ All measurements are floating-point values, normalised and bounded within [-1,1]
 #### Time-domain signals
 
 - Average time-domain body acceleration in the X, Y and Z directions
-* `TimeBodyAccelerometer-Mean-X` 
-* `TimeBodyAccelerometer-Mean-Y` 
-* `TimeBodyAccelerometer-Mean-Z` 
+`TimeBodyAccelerometer-Mean-X` 
+`TimeBodyAccelerometer-Mean-Y` 
+`TimeBodyAccelerometer-Mean-Z` 
+
 - Standard deviation of the time-domain body acceleration in the X, Y and Z directions
-* `TimeBodyAccelerometer-StandardDeviation-X` 
-* `TimeBodyAccelerometer-StandardDeviation-Y` 
-* `TimeBodyAccelerometer-StandardDeviation-Z` 
+`TimeBodyAccelerometer-StandardDeviation-X` 
+`TimeBodyAccelerometer-StandardDeviation-Y` 
+`TimeBodyAccelerometer-StandardDeviation-Z` 
+
 - Average time-domain gravity acceleration in the X, Y and Z directions
 * `TimeGravityAccelerometer-Mean-X` 
 * `TimeGravityAccelerometer-Mean-Y` 
